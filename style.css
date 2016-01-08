@@ -1,22 +1,11 @@
 body{
 	background: url("img/lotus.jpg") no-repeat fixed;
 	}
-#liseret{
-	width:150px;
-	display:inline-block;
-	vertical-align:top;
-	height:2330px;
-	margin-right:10px;
-	}
-#liseret img{
-	width:150px;
-	height:2330px;
-	overflow: hidden;
-	}
+	
 figure{
 	position:absolute;
-	top:0px;
-	margin:28px;
+	top:50px;
+	right: 40px;
 	width:86px;
 	}
 h1 {
