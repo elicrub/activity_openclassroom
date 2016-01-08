@@ -1,0 +1,85 @@
+body{
+	background: url("img/lotus.jpg") no-repeat fixed;
+	}
+#liseret{
+	width:150px;
+	display:inline-block;
+	vertical-align:top;
+	height:2330px;
+	margin-right:10px;
+	}
+#liseret img{
+	width:150px;
+	height:2330px;
+	overflow: hidden;
+	}
+figure{
+	position:absolute;
+	top:0px;
+	margin:28px;
+	width:86px;
+	}
+h1 {
+	text-align:center;
+	border: 2px groove purple;
+	text-shadow: 2px 5px 5px purple; 
+	box-shadow: 5px 5px 5px purple;
+	margin-top:10px;
+	}
+h1+p{
+	text-align:center;
+	font-style:italic;
+	}
+img{
+	box-shadow: 5px 5px 5px purple; 
+	border-radius: 5px
+	}
+@font-face {
+    font-family: 'Burlington';
+    src: url('font/SF_Burlington_Script_Bold_Italic-webfont.eot') format('eot'),
+		 url('font/SF_Burlington_Script_Bold_Italic-webfont.svg') format('svg'),
+		 url('font/SF_Burlington_Script_Bold_Italic-webfont.ttf') format('ttf'),
+	     url('font/SF_Burlington_Script_Bold_Italic-webfont.woff') format('woff');
+	
+	}
+h2{
+	font-family:Burlington; 
+	color:purple;
+	}
+a{
+	text-decoration:none;
+	color:purple;
+	}
+#info{
+	min-width:240px;
+	width: 80%;
+	display:inline-block;
+	}
+div section{
+	width: 28%;
+	min-width:70px;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:10px;
+	}
+
+@media all and (max-width:1024px){
+	
+	#page{
+		width:auto;
+		
+	}
+	#liseret img,#liseret{
+		display:none;
+	}
+	div section{
+		display:block;
+	width:auto;}
+	figure{
+		top:-10px;
+		right:-5px;
+		}
+}
+
+
+
